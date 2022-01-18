@@ -1,0 +1,127 @@
+.row-header {
+  z-index: 0px;
+  padding: 0px 0px;
+  margin: 0px auto; }
+
+.row-content {
+  z-index: 0px;
+  padding: 20px 10px;
+  margin: 0px auto;
+  border-bottom: 1px ridge; }
+
+.footer {
+  z-index: 0px;
+  padding: 20px 0px;
+  margin-top: 30px;
+  background-color: teal;
+  color: floralwhite; }
+
+.jumbotron {
+  z-index: 0px;
+  padding: 70px 30px;
+  margin: 0px auto;
+  background-color: #5e11e2;
+  color: floralwhite; }
+
+.address {
+  z-index: 0px;
+  padding: 0px 0px;
+  margin: 0px auto;
+  color: floralwhite;
+  font-size: 80%; }
+  .address a {
+    color: floralwhite; }
+
+.links a {
+  color: floralwhite; }
+
+.list-unstyled li a {
+  color: floralwhite;
+  text-decoration: none; }
+
+.body {
+  z-index: 0px;
+  padding: 0px 0px;
+  margin: 0px auto;
+  color: floralwhite; }
+
+.navbar-dark {
+  background-color: teal; }
+
+.btnprimary {
+  background-color: teal;
+  border-color: teal;
+  color: floralwhite; }
+  .btnprimary:hover {
+    background-color: teal;
+    border-color: teal;
+    color: floralwhite; }
+  .btnprimary a {
+    color: floralwhite; }
+    .btnprimary a:hover {
+      background-color: teal;
+      border-color: teal;
+      color: floralwhite; }
+
+a:hover {
+  color: floralwhite; }
+
+.tab-content {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 10px; }
+
+.nav-item a {
+  color: black; }
+  .nav-item a:hover {
+    background-color: teal;
+    color: floralwhite; }
+
+.carousel {
+  background-color: teal; }
+  .carousel .carousel-item {
+    height: 400px; }
+    .carousel .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 400px; }
+
+#carouselButton {
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+  z-index: 1; }
+
+.modal-header {
+  background-color: teal;
+  color: floralwhite; }
+
+#cancelReserveButton {
+  background-color: floralwhite;
+  border: none; }
+  #cancelReserveButton:hover {
+    background-color: teal;
+    color: floralwhite; }
+
+#closeReserveButton {
+  color: floralwhite; }
+
+#cancelLoginButton {
+  background-color: floralwhite;
+  border: none; }
+  #cancelLoginButton:hover {
+    background-color: teal;
+    color: floralwhite; }
+
+#closeLoginButton {
+  color: floralwhite; }
+
+.click-me:hover {
+  background-color: teal;
+  color: floralwhite; }
+
+.sign-up:hover {
+  background-color: teal;
+  color: floralwhite; }

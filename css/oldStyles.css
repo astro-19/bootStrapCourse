@@ -1,0 +1,103 @@
+.footer {
+    background-color: teal;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+    color: gainsboro;
+}
+
+.row-header{
+    margin:0px auto;
+    padding:0px;
+}
+
+.jumbotron {
+    padding:30px 30px 30px 30px;
+    margin:0px auto;
+    background: #5e11e2 ;
+    color: gainsboro;
+}
+
+.address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+
+.row-content{
+    margin: 0px auto;
+    padding: 20px 10px 0px 0px;
+}
+
+.address a {
+    color: gainsboro;
+}
+
+.links a {
+    color:gainsboro;
+}
+
+.list-unstyled li a {
+    color: gainsboro;
+    text-decoration: none;
+}
+
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+
+.navbar-dark {
+    background-color:teal;
+}
+
+.btnprimary:hover, .btnprimary a:hover {
+    background-color:teal;
+    border-color: teal;
+}
+.btnprimary, .btnprimary:hover {
+    background-color:teal;
+    border-color: teal;
+    color: white;
+}
+
+.btnprimary-hover:hover{
+    background-color: teal;
+    color:white;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.nav-item a {
+    color: black;
+}
+
+.nav-item a:hover {
+    background-color: teal;
+    color: white;
+}
+
+.carousel {
+    background: teal;
+}
+
+.carousel-item {
+    height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+#carouselButton {
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+}

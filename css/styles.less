@@ -1,0 +1,134 @@
+@lt-gray: black;
+@background-dark: teal;
+@background-jumbo: #5e11e2;
+@color: white;
+
+//Height Variables
+@carousel-item-height: 300px;
+
+.zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {
+    z-index: 0px;
+    padding: @pad-up-dn @pad-left-right;
+}
+
+.row-header {
+    .zero-margin();
+    margin: 0px auto;
+}
+
+.row-content {
+    .zero-margin(20px, 10px);
+    margin: 0px auto;
+    border-bottom: 1px ridge;
+    // min-height: 400px;
+}
+
+.footer {
+    .zero-margin(20px, 0px);
+    margin-top: 30px;
+    background-color: @background-dark;
+    color: @color;
+}
+
+.jumbotron {
+    .zero-margin(70px, 30px);
+    margin: 0px auto;
+    background-color: @background-jumbo;
+    color: @color;
+}
+
+.address {
+    .zero-margin(0px, 0px);
+    margin: 0px auto;
+    color: @color;
+    font-size: 80%;
+    a {
+        color:@color;
+    }
+}
+
+.links {
+     a {
+        color:@color;
+    }
+}
+
+.list-unstyled {
+    li {
+        a {
+        color: @color;
+        text-decoration: none;
+        }
+    }
+}
+
+.body {
+    .zero-margin(0px, 0px);
+    margin: 0px auto;
+}
+
+.navbar-dark {
+    background-color: @background-dark;
+}
+
+.btnprimary {
+    background-color: @background-dark;
+    border-color: @background-dark;
+    color: @color;
+    &:hover {
+        background-color: @background-dark;
+        border-color: @background-dark;
+        color: @color;
+    }
+    a {
+        color: @color;
+        &:hover  {
+            background-color: @background-dark;
+            border-color: @background-dark;
+            color: @color;
+        }
+    }
+}
+
+a {
+    &:hover{
+        color: @color;
+    }
+}
+
+.tab-content {
+    border-left: 1px solid @lt-gray;
+    border-right: 1px solid @lt-gray;
+    border-bottom: 1px solid @lt-gray;
+    padding: 10px;
+}
+
+.nav-item {
+     a {
+        color: @lt-gray;
+        &:hover {
+            background-color: @background-dark;
+            color: @color;
+        }
+    }
+}
+
+.carousel {
+    background-color: @background-dark;
+    .carousel-item {
+        height: @carousel-item-height;
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-height: @carousel-item-height;
+        }
+    }
+}
+
+#carouselButton {
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    z-index: 1;
+}

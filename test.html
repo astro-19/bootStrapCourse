@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</title>
+    </head>
+    <body onload="check()">
+
+    </body>
+        <script type='text/javascript'  src='node_modules/jquery/dist/jquery.js'></script>
+        <script type='text/javascript' src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script type='text/javascript' src="node_modules/jquery/dist/jquery.min.js"></script> 
+        <script type="text/javascript">
+            function check(){
+                if(window.jQuery){
+                    alert("Jquery Loaded");
+                }
+                else {
+                    alert("Not Loaded");
+                }
+            }
+        </script>
+         <!-- <script type="text/javascript">
+            $(document).ready(function(){
+               if (jQuery) {  
+                 // jQuery is loaded  
+                 alert("Yeah!");
+               } else {
+                 // jQuery is not loaded
+                 alert("Doesn't Work");
+               }
+            });
+          </script> -->
+</html>
